@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AdrianusWest/python-project-lvl4/workflows/hexlet-check/badge.svg)](https://github.com/AdrianusWest/python-project-lvl4/actions)
-![Python CI](https://github.com/AdrianusWest/python-project-lvl4/actions/workflows/pyci.yml/badge.svg)](https://github.com/AdrianusWest/python-project-lvl4/actions/workflows/pyci.yml)
+[![Python CI](https://github.com/AdrianusWest/python-project-lvl4/actions/workflows/pyci.yml/badge.svg)](https://github.com/AdrianusWest/python-project-lvl4/actions/workflows/pyci.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/dd3e13d1e3bbd6c4d178/maintainability)](https://codeclimate.com/github/AdrianusWest/python-project-lvl4/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/dd3e13d1e3bbd6c4d178/test_coverage)](https://codeclimate.com/github/AdrianusWest/python-project-lvl4/test_coverage)
 
