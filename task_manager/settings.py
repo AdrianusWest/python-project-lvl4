@@ -158,9 +158,3 @@ ROLLBAR = {
 }
 
 rollbar.init(**ROLLBAR)
-
-
-try:
-    from local_settings import *
-except ImportError:
-    pass
