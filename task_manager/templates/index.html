@@ -1,0 +1,71 @@
+{{ '<' }}{{'!doctype html>'}}
+{# Load the tag library #}
+{% load bootstrap4 %}
+
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+{% load i18n %}
+
+<html lang="ru">
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <title>{%  trans "Менеджер задач" %}</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+         <a class="navbar-brand" href="{% url 'main' %}">{%  trans "Менеджер задач" %}</a>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              {% if not user.is_authenticated %}
+               <li class="nav-item">
+                  <a class="nav-link p-2" href="{% url 'list_of_users' %}">{% trans "Пользователи" %}</a>
+               </li>
+               {% else %}
+               <li class="nav-item">
+                  <a class="nav-link p-2" href="{% url 'list_of_users' %}">{% trans "Пользователи" %}</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link p-2" href="{% url 'list_of_statuses' %}">{% trans "Статусы" %}</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link p-2" href="{% url 'list_of_labels' %}">{% trans "Метки" %}</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link p-2" href="{% url 'list_of_tasks' %}">{% trans "Задачи" %}</a>
+               </li>
+                {% endif %}
+            </ul>
+         <div class="mt-2 mt-md-0">
+            <ul class="navbar-nav mr-auto">
+              {% if not user.is_authenticated %}
+               <li class="nav-item">
+                  <a class="nav-link p-2" href="{% url 'sign_in' %}">{% trans "Вход" %}</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link p-2" href="{% url 'sign_up' %}">{% trans "Регистрация" %}</a>
+               </li>
+               {% else %}
+               <form action="/logout/" method="post">
+                    {% csrf_token %}
+                    <input type="submit" class="btn nav-link" value="{% translate 'Выход' %}">
+                </form>
+                {% endif %}
+            </ul>
+         </div>
+         </div>
+      </nav>
+      <div class="container">
+        {% bootstrap_messages %}
+      </div>
+      <div class="container wrapper flex-grow-1 mt-5">
+        {% block content %}
+        {% endblock %}
+      </div>
+      <footer>
+      <div class="container my-5 pt-4 border-top">
+        <a target="_blank" href="https://github.com/AdrianusWest/python-project-lvl4">{% translate 'Исходный код проекта' %}</a>
+      </div>
+    </footer>
+   </body>
+</html>

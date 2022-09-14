@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-24 16:27+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Имя"
+msgstr "Name"
+
+
+msgid "Метка успешно создана"
+msgstr "Label successfully created"
+
+
+msgid "Метка успешно изменена"
+msgstr "Label was successfully changed"
+
+
+msgid "Статус успешно создан"
+msgstr "Status created successfully"
+
+
+msgid "Статус успешно изменён"
+msgstr "Status changed successfully"
+
+msgid "Статус"
+msgstr "Status"
+
+msgid "Исполнитель"
+msgstr "Executor"
+
+msgid "Метка"
+msgstr "Label"
+
+msgid "Только свои задачи"
+msgstr "Only your tasks"
+
+msgid "Описание"
+msgstr "Description"
+
+msgid "Метки"
+msgstr "Labels"
+
+msgid "Задача успешно создана"
+msgstr "Task created successfully"
+
+msgid "Задача успешно изменена"
+msgstr "Task changed successfully"
+
+msgid "Задача успешно удалена"
+msgstr "Task deleted successfully"
+
+msgid "Задачу может удалить только её автор"
+msgstr "A task can only be deleted by its author"
+
+msgid "Менеджер задач"
+msgstr "Task manager"
+
+msgid "Пользователи"
+msgstr "Users"
+
+msgid "Статусы"
+msgstr "Statuses"
+
+msgid "Задачи"
+msgstr "Tasks"
+
+msgid "Вход"
+msgstr "Sign in"
+
+msgid "Регистрация"
+msgstr "Sing up"
+
+msgid "Выход"
+msgstr "Sign out"
+
+msgid "Создать Метку"
+msgstr "Create label"
+
+msgid "Создать"
+msgstr "Create"
+
+msgid "Удаление метки"
+msgstr "Deleting a label"
+
+msgid "Вы уверены, что хотите удалить"
+msgstr "Are you sure you want to delete"
+
+msgid "Да, удалить"
+msgstr "Yes, delete"
+
+msgid "Дата создания"
+msgstr "Date of creation"
+
+msgid "Изменить"
+msgstr "Change"
+
+msgid "Удалить"
+msgstr "Delete"
+
+msgid "Изменение метки"
+msgstr "Label change"
+
+msgid "Создать статус"
+msgstr "Create status"
+
+msgid "Удаление статуса"
+msgstr "Delete status"
+
+msgid "Изменение статуса"
+msgstr "Change of status"
+
+msgid "Создать задачу"
+msgstr "Create a task"
+
+msgid "Удаление задачи"
+msgstr "Deleting a task"
+
+msgid "Показать"
+msgstr "Show"
+
+msgid "Автор"
+msgstr "Author"
+
+msgid "Изменение задачи"
+msgstr "Changing a task"
+
+msgid "Удаление пользователя"
+msgstr "Deleting a user"
+
+msgid "Полное имя"
+msgstr "Full name"
+
+msgid "Войти"
+msgstr "Sign in"
+
+msgid "Зарегистрировать"
+msgstr "Sign up"
+
+msgid "Изменение пользователя"
+msgstr "User change"
+
+msgid "Пользователь успешно зарегистрирован"
+msgstr "You are sign up"
+
+msgid "Пользователь успешно изменён"
+msgstr "User changed successfully"
+
+msgid "Вы залогинены"
+msgstr "You are sign in"
+
+msgid "Вы разлогинены"
+msgstr "You are sign out"
+
+msgid "Организуйте работу и жизнь"
+msgstr "Organize your work and life"
+
+msgid "Организовать"
+msgstr "Organize"
+
+msgid "Исходный код"
+msgstr "Source"
+
+msgid "Вы не авторизованы! Пожалуйста, выполните вход."
+msgstr "You are not logged in! Please log in."
+
+msgid "У вас нет прав для изменения другого пользователя."
+msgstr "You don't have the rights to change another user."
+
+msgid "Невозможно удалить пользователя, потому что он используется"
+msgstr "It is not possible to delete a user because it is being used"
+
+msgid "Пользователь успешно удалён"
+msgstr "The user has been successfully deleted"
+
+msgid "Невозможно удалить статус, потому что он используется"
+msgstr "It is not possible to delete the status because it is being used"

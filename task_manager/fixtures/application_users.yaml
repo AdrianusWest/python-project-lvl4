@@ -1,0 +1,45 @@
+-   model: users.applicationusers
+    pk: 1
+    fields:
+        password: GenPass467@#
+        last_login: 2016-12-31 00:00:00.564432+00:00
+        is_superuser: false
+        username: jenya
+        first_name: Yevgeniy
+        last_name: Osin
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2013-12-31 00:00:00.564432+00:00
+        groups: []
+        user_permissions: []
+-   model: users.applicationusers
+    pk: 2
+    fields:
+        password: GenPass357@#
+        last_login: 2015-10-30 06:42:40.002446+00:00
+        is_superuser: false
+        username: alex_win
+        first_name: Alex
+        last_name: Winchester
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2014-10-30 06:42:40.002446+00:00
+        groups: []
+        user_permissions: []
+-   model: users.applicationusers
+    pk: 3
+    fields:
+        password: GenPass987@#
+        last_login: 2019-02-23 15:00:00.005764+00:00
+        is_superuser: false
+        username: Serge
+        first_name: TestFirstName
+        last_name: TestLastName
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2017-02-23 15:00:00.005764+00:00
+        groups: []
+        user_permissions: []
