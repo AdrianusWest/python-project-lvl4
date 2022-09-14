@@ -22,8 +22,8 @@ DEBUG = os.getenv('DEBUG', 'true').lower() in ['true']
 ALLOWED_HOSTS = [
     # '.herokuapp.com',
     'localhost',
-    '0.0.0.0',
-    'webserver',
+    # '0.0.0.0',
+    # 'webserver',
     '127.0.0.1',
 ]
 
