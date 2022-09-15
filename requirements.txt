@@ -1,11 +1,11 @@
 asgiref @ file:///home/adrian/.cache/pypoetry/artifacts/22/46/4d/e9d170f76cad59b81e4568f6b37cce88f46df63c197e476a1020862182/asgiref-3.5.2-py3-none-any.whl
 attrs @ file:///home/adrian/.cache/pypoetry/artifacts/b9/be/54/b0e6347a5b526e41f45aea10a61b5240586c74ee17e1d53c827b4d7288/attrs-22.1.0-py2.py3-none-any.whl
 beautifulsoup4 @ file:///home/adrian/.cache/pypoetry/artifacts/e0/aa/39/7b168d115afeea9a7de54a24de624233f50f1b5a3f67d2e650da99a476/beautifulsoup4-4.11.1-py3-none-any.whl
-certifi @ file:///home/adrian/.cache/pypoetry/artifacts/f8/d0/a5/97beb4d28f51b025687d25c5297136ab50a3689e873644b9d75b7e16d0/certifi-2022.6.15.1-py3-none-any.whl
+certifi @ file:///home/adrian/.cache/pypoetry/artifacts/e3/a6/e6/d3c5792ed07d509e6304acf98814dcc9ac09bece77c53ee48729786ad8/certifi-2022.9.14-py3-none-any.whl
 charset-normalizer @ file:///home/adrian/.cache/pypoetry/artifacts/e5/e0/4b/1a8efda7c7e867cc898eee8167f0482e7d650dc2af571484014d4e962d/charset_normalizer-2.1.1-py3-none-any.whl
 cognitive-complexity @ file:///home/adrian/.cache/pypoetry/artifacts/01/0f/b6/f0b8b8eb08d9e88da3b70e18ed7845af8d2921a7a5eb2c81be1bcd9962/cognitive_complexity-1.3.0.tar.gz
 coverage @ file:///home/adrian/.cache/pypoetry/artifacts/65/3a/63/0363747d6fe067cd49a47e54cddb89471c0db2545b7066da205be92f6a/coverage-6.4.4-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-dj-database-url @ file:///home/adrian/.cache/pypoetry/artifacts/e0/2e/ea/2b27ceff9e6e08dd6f9b0f803bfff6ac1524c7577ff45366be0110e8b6/dj_database_url-1.0.0-py3-none-any.whl
+dj-database-url @ file:///home/adrian/.cache/pypoetry/artifacts/4d/45/5f/ecd99aa66306968dc0a97beb09e86273947cb94400fddfa1d308d10331/dj_database_url-0.5.0-py2.py3-none-any.whl
 Django @ file:///home/adrian/.cache/pypoetry/artifacts/c3/a8/b1/60118b5a70231e8d7a8ae46f99949a60e3e8250d73872a6415e6b2b67f/Django-4.1.1-py3-none-any.whl
 django-bootstrap4 @ file:///home/adrian/.cache/pypoetry/artifacts/e5/e6/1e/e7cc3ea21aeff504c6b8a62e96fe3395a219b47b5e5b104806f8dfe1f9/django_bootstrap4-22.2-py3-none-any.whl
 django-filter @ file:///home/adrian/.cache/pypoetry/artifacts/24/26/56/db40d486067e68d7a096d3b08a0cbe4d85e9f0f6bb56c447f621059b85/django_filter-22.1-py3-none-any.whl
@@ -28,7 +28,7 @@ flake8-polyfill @ file:///home/adrian/.cache/pypoetry/artifacts/94/ed/18/a0bf327
 flake8-print @ file:///home/adrian/.cache/pypoetry/artifacts/74/98/75/dd4f62f44728a00f4446a1d98b111b9cb89f2c3fee8301a7a83e816ac0/flake8_print-5.0.0-py3-none-any.whl
 flake8-string-format @ file:///home/adrian/.cache/pypoetry/artifacts/6f/04/a5/65c2427b493559b37bdf91e90f151729de6855625035d6f6b10a4c117d/flake8_string_format-0.3.0-py2.py3-none-any.whl
 gunicorn @ file:///home/adrian/.cache/pypoetry/artifacts/9f/68/9f/f1166be9473b4fe2cc59c98fac616db1f94b18662b9055d1ac940374e3/gunicorn-20.1.0-py3-none-any.whl
-idna @ file:///home/adrian/.cache/pypoetry/artifacts/90/36/8c/81eabf6ac88608721ab27f439c9a6b9a8e6a21cc58c59ebb1a42720199/idna-3.3-py3-none-any.whl
+idna @ file:///home/adrian/.cache/pypoetry/artifacts/6c/c4/9a/4a40812e61d669fffc474987128ff48aab9be33cdddc5e5038bd96f4ac/idna-3.4-py3-none-any.whl
 iniconfig @ file:///home/adrian/.cache/pypoetry/artifacts/1d/67/0c/79706e7a41ef01be0b1a38aa3b4ddc9bd800a95ccd8d8dc7de4e090623/iniconfig-1.1.1-py2.py3-none-any.whl
 mccabe @ file:///home/adrian/.cache/pypoetry/artifacts/6e/13/d3/27dd3d81419a63f54cee1343db4375f63135b517d83e52d7447875f739/mccabe-0.7.0-py2.py3-none-any.whl
 packaging @ file:///home/adrian/.cache/pypoetry/artifacts/d3/1f/90/3f2473250ebd055fe7f0856810677783949fc0d2e5f25bbb4dc00ad0a9/packaging-21.3-py3-none-any.whl

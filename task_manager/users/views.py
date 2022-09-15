@@ -68,7 +68,7 @@ class SignIn(SuccessMessageMixin, LoginView):
     template_name = 'users/sign_in.html'
     form_class = SignInForm
     next_page = reverse_lazy('main')
-    success_message = gettext_lazy('Вы залогинены')
+    success_message = gettext_lazy('Вы в системе')
 
 
 class SignOut(LogoutView, SuccessMessageMixin):
