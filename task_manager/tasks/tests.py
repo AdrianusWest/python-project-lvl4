@@ -26,7 +26,7 @@ class TestTask(TestCase):
     def test_list_of_tasks(self):
         self.client.force_login(self.first_user)
         response = self.client.get(reverse('list_of_tasks'))
-        tasks_list = list(response.context['list_of_tasks'])
+        tasks_list = list(response.context['list_Of_tasks'])
 
         self.assertEqual(response.status_code, 200)
         self.assertQuerysetEqual(tasks_list, [self.first_task,
