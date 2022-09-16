@@ -22,7 +22,7 @@ class ListOfTasks(LoginRequiredMixin, CheckSignInMixin,
                   SuccessMessageMixin, FilterView):
     model = Tasks
     template_name = 'tasks/list_of_tasks.html'
-    context_object_name = 'list_of_tasks'
+    context_object_name = 'list_Of_tasks'
     filterset_class = TaskFilter
 
 
@@ -58,8 +58,8 @@ class DeleteTask(LoginRequiredMixin, CheckSignInMixin,
 
     def form_valid(self, form):
         if self.request.user != self.get_object().author:
-            messages.error(self.request,
-                           gettext_lazy('Задачу может удалить только её автор'))
+            messages.error(self.request, gettext_lazy(
+                'Задачу может удалить только её автор'))
         else:
             super().form_valid(form)
         return redirect(self.success_url)
