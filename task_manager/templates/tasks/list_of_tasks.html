@@ -8,9 +8,9 @@
     <div class="card mb-3">
         <div class="card-body bg-light text-dark">
             <form class="form-inline center my-auto" method="get">
-                {% csrf_token %}
-                {% bootstrap_form filter.form field_class="ml-2 mr-2" %}
-                <input class="btn btn-primary" type="submit" value={% trans 'Показать' %}>
+              {% csrf_token %}
+              {% bootstrap_form filter.form field_class="ml-2 mr-2" %}
+              <input class="btn btn-primary" type="submit" value={% trans 'Показать' %}>
             </form>
         </div>
     </div>
@@ -26,10 +26,10 @@
          <th scope="col"></th>
      </tr>
    </thead>
-     {% for task in list_of_tasks %}
+     {% for task in list_Of_tasks %}
    <tbody>
      <tr>
-         <th scope="row">{{ task.id }}</th>
+         <th scope="row"">{{ task.id }}</th>
          <td><a class="text-decoration-none" href="{% url 'view_task' task.id %}">{{ task.name }}</a></td>
          <td>{{ task.status }}</td>
          <td>{{ task.author }}</td>

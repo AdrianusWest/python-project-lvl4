@@ -13,10 +13,10 @@
          <th scope="col"></th>
      </tr>
    </thead>
-     {% for label in list_of_labels %}
+     {% for label in labels %}
    <tbody>
      <tr>
-         <th scope="row">{{ label.id }}</th>
+         <th scope="row"">{{ label.id }}</th>
          <td>{{ label.name }}</td>
          <td>{{ label.created_at|date:"d.m.Y H:i" }}</td>
          <td>

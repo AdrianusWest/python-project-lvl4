@@ -13,10 +13,10 @@
          <th scope="col"></th>
      </tr>
    </thead>
-     {% for status in list_of_statuses %}
+     {% for status in statuses %}
    <tbody>
      <tr>
-         <th scope="row">{{ status.id }}</th>
+         <th scope="row"">{{ status.id }}</th>
          <td>{{ status.name }}</td>
          <td>{{ status.created_at|date:"d.m.Y H:i" }}</td>
          <td>
