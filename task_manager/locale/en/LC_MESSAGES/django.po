@@ -160,10 +160,10 @@ msgstr "You are sign up"
 msgid "Пользователь успешно изменён"
 msgstr "User changed successfully"
 
-msgid "Вы в системе"
+msgid "Вы залогинены"
 msgstr "You are sign in"
 
-msgid "Вы вышли из системы"
+msgid "Вы разлогинены"
 msgstr "You are sign out"
 
 msgid "Организуйте работу и жизнь"
