@@ -160,10 +160,10 @@ msgstr "You are sign up"
 msgid "Пользователь успешно изменён"
 msgstr "User changed successfully"
 
-msgid "Вы залогинены"
+msgid "Вы в системе"
 msgstr "You are sign in"
 
-msgid "Вы разлогинены"
+msgid "Вы вышли из системы"
 msgstr "You are sign out"
 
 msgid "Организуйте работу и жизнь"
@@ -178,10 +178,10 @@ msgstr "Source"
 msgid "Вы не авторизованы! Пожалуйста, выполните вход."
 msgstr "You are not logged in! Please log in."
 
-msgid "У вас нет прав для изменения другого пользователя."
-msgstr "You don't have the rights to change another user."
+msgid "У Вас недостаточно прав для изменения другого пользователя!"
+msgstr "You don't have the rights to change another user!"
 
-msgid "Невозможно удалить пользователя, потому что он используется"
+msgid "Невозможно удалить, т.к. пользователь используется"
 msgstr "It is not possible to delete a user because it is being used"
 
 msgid "Пользователь успешно удалён"
